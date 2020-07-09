@@ -9,7 +9,7 @@
 import SwiftUI
 
 /*
- Creating Picker view
+ Creating Picker view and create view with Foreach
  */
 
 struct ContentView: View {
@@ -23,6 +23,11 @@ struct ContentView: View {
                 Text(self.textArray[$0])
             }
         }
+       /* Form {
+            ForEach(0..<20) { number in
+                Text("Sandeep")
+            }
+        } */
     }
 }
 
